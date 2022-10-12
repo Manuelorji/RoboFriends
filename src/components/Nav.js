@@ -1,7 +1,7 @@
 import React from "react";
 import { Component } from "react";
 import "../components/Nav.scss";
-import SearchBox from "./Searchbox";
+// import SearchBox from "./Searchbox";
 
 class Nav extends Component {
   render() {
@@ -13,22 +13,22 @@ class Nav extends Component {
           </div>
           <div className="nav-links">
             <div>
-              <a href="#" className="nav-link">
+              <a href="#home" className="nav-link">
                 Home
               </a>
             </div>
             <div>
-              <a href="#" className="nav-link">
+              <a href="#projects" className="nav-link">
                 Projects
               </a>
             </div>
             <div>
-              <a href="#" className="nav-link">
+              <a href="#about" className="nav-link">
                 About
               </a>
             </div>
             <div>
-              <a href="#" className="nav-link">
+              <a href="#enquiries" className="nav-link">
                 Enquiries
               </a>
             </div>
