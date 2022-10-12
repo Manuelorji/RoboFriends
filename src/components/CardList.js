@@ -6,9 +6,9 @@ function CardList({ robots }) {
     return (
       <Card
         key={i}
-        id={robot[i].id}
-        name={robot[i].name}
-        email={robot[i].email}
+        id={robots[i].id}
+        name={robots[i].name}
+        email={robots[i].email}
       />
     );
   });
